@@ -19,6 +19,15 @@ class UpdateRequest extends FormRequest
      *
      * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
      */
+    public function rules(): array
+    {
+        return [
+            'name' => ['sometimes', 'string', 'max:255'],
+            'phone' => ['sometimes', 'string', 'max:13'],
+            'note' => ['sometimes'],
+        ];
+    }
+
     public function attributes()
     {
         return [

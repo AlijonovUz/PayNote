@@ -22,7 +22,7 @@ class IncreaseDebtRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'amount' => ['required', 'integer', 'min:1'],
+            'amount' => ['required', 'integer', 'min:1000'],
             'note' => ['nullable', 'string']
         ];
     }

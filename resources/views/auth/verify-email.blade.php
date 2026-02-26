@@ -30,11 +30,6 @@
                         class="w-full flex justify-center py-2.5 px-4 border border-transparent rounded-lg shadow-md shadow-indigo-100 text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none transition-all active:scale-[0.98]">
                     Emailni qayta yuborish
                 </button>
-
-                <a href="{{ route('register') }}"
-                   class="inline-block text-sm font-medium text-slate-500 hover:text-indigo-600 transition-colors">
-                    <i class="fa-solid fa-arrow-left mr-2"></i>Ro'yxatdan o'tish sahifasiga qaytish
-                </a>
             </div>
 
             <div class="mt-10 pt-10 border-t border-slate-100">
